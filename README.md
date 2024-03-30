@@ -75,8 +75,6 @@ ghci exercicio1.hs
 8. Manipulação de Listas de Binários
    - Implementação de funções para operar sobre listas de binários.
 
-9. Outras Funções Administrativas
-   - Implementação de funções administrativas como previsão, planejamento, organização, integração, coordenação, direção e controle.
 
 ## Contribuição
 
