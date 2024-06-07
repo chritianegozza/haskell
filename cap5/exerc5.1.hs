@@ -10,5 +10,3 @@ data Produto = Produto { valor :: Double, tp :: TipoProduto } | Nada deriving (S
 instance Monoid Produto where
     mempty = Produto { valor = 0.0, tp = Total }
     mappend Nada p = p
-    mappend p Nada = p
-    mappend (Produto v1 tp1) (Produto v2 tp2) = Produto { valor = v1 + v2, tp = Total }
